@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "TableViewModel.h"
-#import "YHTableUIModel.h"
-#import "TableViewCell.h"
 
 @interface ViewController ()
 
@@ -33,7 +31,6 @@
     [self.viewModel fetch:^(NSError *error, NSArray<YHTableUIModel *> *arr) {
         [self.viewModel refreshTableView:arr];
     }];
-    
     
 //
 //    [self.viewModel refreshTableView:@[uiModel]];

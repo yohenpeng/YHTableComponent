@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YHTableUIModel.h"
+#import <YHTableComponent/YHTableComponent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

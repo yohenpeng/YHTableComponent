@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165B6EC336DABBAC8854332AA07C724B /* YHTableComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 103F5F43E4674E6053D7FF8587C24CAB /* YHTableComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		24F94A22FA7998E9269C44965B9641FF /* Pods-TableComponentDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A46504B4EACEC6D4793C15955DBB9 /* Pods-TableComponentDemo-dummy.m */; };
-		530696D333D223105918FDBF43DBC1F8 /* YHTableUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 862EAF5F8E7FA37D084F899D36F6EAD0 /* YHTableUIModel.m */; };
-		9D57B05D47A0D57B5538B24F88C586BA /* YHTableUIModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 860337DBB7EEE547535430AAB8F14003 /* YHTableUIModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E60A2F9683117A8639F68D6C500F49A /* YHTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E67CAD169D48F320E8E8B179BCE5CF7F /* YHTableViewModel.m */; };
-		AD2561482EB331AFC508F6AE84356FA7 /* YHTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2158834B788A0923D741D1D4E2E52E /* YHTableViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB92654C2E35934F495B67E526F83150 /* YHTableComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B95C3933ECD6C3523CD773752353F3 /* YHTableComponent-dummy.m */; };
+		43D0745780FD8E14B5DA563C3C4EC511 /* YHTableUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F55B90276A1EDD2280E6E987A005ABF /* YHTableUIModel.m */; };
+		547E6F7B422221161BBB62C69F9810DC /* YHTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC5B0CAD5D32037D87E6AA69B71C258 /* YHTableViewModel.m */; };
+		91EA6062EF6675E88493CCA8B487C31A /* YHTableComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7A0F9C53AEEF1FBDD8764BB9FBC5A2 /* YHTableComponent-dummy.m */; };
+		98E21E8B876546CC975D1E4AED8E2BA8 /* YHTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCFD61A6DA25C62043CEE8033575DEE /* YHTableViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E804498CAF978BCB4ED78287494C4E59 /* YHTableUIModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4612CA9AF032EAA6A74E61590E89D87B /* YHTableUIModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,32 +27,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E2158834B788A0923D741D1D4E2E52E /* YHTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHTableViewModel.h; path = YHTableComponent/ViewModel/YHTableViewModel.h; sourceTree = "<group>"; };
+		0F55B90276A1EDD2280E6E987A005ABF /* YHTableUIModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHTableUIModel.m; path = YHTableComponent/Model/YHTableUIModel.m; sourceTree = "<group>"; };
+		103F5F43E4674E6053D7FF8587C24CAB /* YHTableComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHTableComponent.h; path = YHTableComponent/YHTableComponent.h; sourceTree = "<group>"; };
 		28D143976AA9792FC2EC8A64956BF39A /* libYHTableComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYHTableComponent.a; path = libYHTableComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		392153918D25643DC0F44A50B8385AB1 /* Pods-TableComponentDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TableComponentDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F9A46504B4EACEC6D4793C15955DBB9 /* Pods-TableComponentDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TableComponentDemo-dummy.m"; sourceTree = "<group>"; };
-		526078F3E62CC22DD88C40ACDA2B4DE0 /* YHTableComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTableComponent-prefix.pch"; sourceTree = "<group>"; };
-		68B95C3933ECD6C3523CD773752353F3 /* YHTableComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHTableComponent-dummy.m"; sourceTree = "<group>"; };
+		4612CA9AF032EAA6A74E61590E89D87B /* YHTableUIModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHTableUIModel.h; path = YHTableComponent/Model/YHTableUIModel.h; sourceTree = "<group>"; };
+		4FC6BAF77C9F56626820DF6B7E2B254E /* YHTableComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTableComponent.xcconfig; sourceTree = "<group>"; };
 		76C4C1AC1DAF8D443DFB5C930CFE5F7B /* Pods-TableComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		796D1A6DC1368706ED1AAA80C89D7D41 /* Pods-TableComponentDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TableComponentDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		860337DBB7EEE547535430AAB8F14003 /* YHTableUIModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHTableUIModel.h; path = YHTableComponent/Model/YHTableUIModel.h; sourceTree = "<group>"; };
-		862EAF5F8E7FA37D084F899D36F6EAD0 /* YHTableUIModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHTableUIModel.m; path = YHTableComponent/Model/YHTableUIModel.m; sourceTree = "<group>"; };
-		8B272B2AD36583F515DA07E49055B39F /* YHTableComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YHTableComponent.xcconfig; sourceTree = "<group>"; };
+		98D1DF6C254A1353DFD0F362B742E91C /* YHTableComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YHTableComponent-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5E61219CD85378B3445EA174B64AF1D /* libPods-TableComponentDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TableComponentDemo.a"; path = "libPods-TableComponentDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E67CAD169D48F320E8E8B179BCE5CF7F /* YHTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHTableViewModel.m; path = YHTableComponent/ViewModel/YHTableViewModel.m; sourceTree = "<group>"; };
+		BAC5B0CAD5D32037D87E6AA69B71C258 /* YHTableViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YHTableViewModel.m; path = YHTableComponent/ViewModel/YHTableViewModel.m; sourceTree = "<group>"; };
+		BD7A0F9C53AEEF1FBDD8764BB9FBC5A2 /* YHTableComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YHTableComponent-dummy.m"; sourceTree = "<group>"; };
+		CFCFD61A6DA25C62043CEE8033575DEE /* YHTableViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YHTableViewModel.h; path = YHTableComponent/ViewModel/YHTableViewModel.h; sourceTree = "<group>"; };
 		E8CBA56078574C1E39466354492C06A5 /* Pods-TableComponentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TableComponentDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FA13B8E2E0935A60B3665D3043C83F4 /* Frameworks */ = {
+		160BCF009D30513E35E4641E3603CAA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55E9A77A73AB6939BF8802464A501F7C /* Frameworks */ = {
+		2FA13B8E2E0935A60B3665D3043C83F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,6 +80,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		19ACE522DB031FAB7C15BFDEBC82D608 /* YHTableComponent */ = {
+			isa = PBXGroup;
+			children = (
+				103F5F43E4674E6053D7FF8587C24CAB /* YHTableComponent.h */,
+				4612CA9AF032EAA6A74E61590E89D87B /* YHTableUIModel.h */,
+				0F55B90276A1EDD2280E6E987A005ABF /* YHTableUIModel.m */,
+				CFCFD61A6DA25C62043CEE8033575DEE /* YHTableViewModel.h */,
+				BAC5B0CAD5D32037D87E6AA69B71C258 /* YHTableViewModel.m */,
+				4EC9FF9D43AE42D0E588E88030F18603 /* Support Files */,
+			);
+			name = YHTableComponent;
+			path = YHTableComponent;
+			sourceTree = "<group>";
+		};
 		4541F9CFC5FEEA1F8708FE7CAEFF324C /* Pods-TableComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,12 +107,15 @@
 			path = "Target Support Files/Pods-TableComponentDemo";
 			sourceTree = "<group>";
 		};
-		CC51C14DD61A63A67432FA58B3510244 /* Pods */ = {
+		4EC9FF9D43AE42D0E588E88030F18603 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DC6E50FEBED05106685926E0DE0B3F97 /* YHTableComponent */,
+				4FC6BAF77C9F56626820DF6B7E2B254E /* YHTableComponent.xcconfig */,
+				BD7A0F9C53AEEF1FBDD8764BB9FBC5A2 /* YHTableComponent-dummy.m */,
+				98D1DF6C254A1353DFD0F362B742E91C /* YHTableComponent-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/YHTableComponent";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -104,7 +123,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				CC51C14DD61A63A67432FA58B3510244 /* Pods */,
+				E443809D113720261E15CE8637E6100C /* Pods */,
 				14765FAB968F5A6D666C1120713F6670 /* Products */,
 				025FAC62ABCD03F8B68813F0C2667F31 /* Targets Support Files */,
 			);
@@ -117,46 +136,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D8DF29269EBB1672FC1944021CE55D80 /* Support Files */ = {
+		E443809D113720261E15CE8637E6100C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B272B2AD36583F515DA07E49055B39F /* YHTableComponent.xcconfig */,
-				68B95C3933ECD6C3523CD773752353F3 /* YHTableComponent-dummy.m */,
-				526078F3E62CC22DD88C40ACDA2B4DE0 /* YHTableComponent-prefix.pch */,
+				19ACE522DB031FAB7C15BFDEBC82D608 /* YHTableComponent */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/YHTableComponent";
-			sourceTree = "<group>";
-		};
-		DC6E50FEBED05106685926E0DE0B3F97 /* YHTableComponent */ = {
-			isa = PBXGroup;
-			children = (
-				860337DBB7EEE547535430AAB8F14003 /* YHTableUIModel.h */,
-				862EAF5F8E7FA37D084F899D36F6EAD0 /* YHTableUIModel.m */,
-				0E2158834B788A0923D741D1D4E2E52E /* YHTableViewModel.h */,
-				E67CAD169D48F320E8E8B179BCE5CF7F /* YHTableViewModel.m */,
-				D8DF29269EBB1672FC1944021CE55D80 /* Support Files */,
-			);
-			name = YHTableComponent;
-			path = YHTableComponent;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		254414FCA5FEB06814CD65A5834B1B45 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D57B05D47A0D57B5538B24F88C586BA /* YHTableUIModel.h in Headers */,
-				AD2561482EB331AFC508F6AE84356FA7 /* YHTableViewModel.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA82A9F75FCF2636E7DA19AB72C792E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F627C2FCCC200E1F3B166EE7E175152B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165B6EC336DABBAC8854332AA07C724B /* YHTableComponent.h in Headers */,
+				E804498CAF978BCB4ED78287494C4E59 /* YHTableUIModel.h in Headers */,
+				98E21E8B876546CC975D1E4AED8E2BA8 /* YHTableViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,11 +169,11 @@
 /* Begin PBXNativeTarget section */
 		1C83F20D3FD1989D13E65C50C7DF15BE /* YHTableComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0844986BF11FAB3AE9F597961632C28A /* Build configuration list for PBXNativeTarget "YHTableComponent" */;
+			buildConfigurationList = 460A8830D4BDEBA26A15F709AB3B2D39 /* Build configuration list for PBXNativeTarget "YHTableComponent" */;
 			buildPhases = (
-				254414FCA5FEB06814CD65A5834B1B45 /* Headers */,
-				C626896E6395AEB660FA5325E457F30B /* Sources */,
-				55E9A77A73AB6939BF8802464A501F7C /* Frameworks */,
+				F627C2FCCC200E1F3B166EE7E175152B /* Headers */,
+				BF4E4593A0681D851526123EFD80F456 /* Sources */,
+				160BCF009D30513E35E4641E3603CAA1 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,13 +230,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C626896E6395AEB660FA5325E457F30B /* Sources */ = {
+		BF4E4593A0681D851526123EFD80F456 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB92654C2E35934F495B67E526F83150 /* YHTableComponent-dummy.m in Sources */,
-				530696D333D223105918FDBF43DBC1F8 /* YHTableUIModel.m in Sources */,
-				9E60A2F9683117A8639F68D6C500F49A /* YHTableViewModel.m in Sources */,
+				91EA6062EF6675E88493CCA8B487C31A /* YHTableComponent-dummy.m in Sources */,
+				43D0745780FD8E14B5DA563C3C4EC511 /* YHTableUIModel.m in Sources */,
+				547E6F7B422221161BBB62C69F9810DC /* YHTableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +260,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39295CE3ED9AB35D32DEE8E1D8ED65C8 /* Release */ = {
+		1837F8AC3B12C8CB2355FB7990D5C243 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B272B2AD36583F515DA07E49055B39F /* YHTableComponent.xcconfig */;
+			baseConfigurationReference = 4FC6BAF77C9F56626820DF6B7E2B254E /* YHTableComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -426,9 +430,9 @@
 			};
 			name = Debug;
 		};
-		C13AC762E1266D47C0FE52E9F8139D7D /* Debug */ = {
+		D777E9181ABC1D493F330D9D9D21FE18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B272B2AD36583F515DA07E49055B39F /* YHTableComponent.xcconfig */;
+			baseConfigurationReference = 4FC6BAF77C9F56626820DF6B7E2B254E /* YHTableComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -475,20 +479,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0844986BF11FAB3AE9F597961632C28A /* Build configuration list for PBXNativeTarget "YHTableComponent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C13AC762E1266D47C0FE52E9F8139D7D /* Debug */,
-				39295CE3ED9AB35D32DEE8E1D8ED65C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3165CE69CB244F209E8B4DFEBE64E9FA /* Build configuration list for PBXNativeTarget "Pods-TableComponentDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72C5D912F7423D68F4209C8A07E6AB5A /* Debug */,
 				ED87FD2720A77652E0B9C6347A3DB519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460A8830D4BDEBA26A15F709AB3B2D39 /* Build configuration list for PBXNativeTarget "YHTableComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D777E9181ABC1D493F330D9D9D21FE18 /* Debug */,
+				1837F8AC3B12C8CB2355FB7990D5C243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
