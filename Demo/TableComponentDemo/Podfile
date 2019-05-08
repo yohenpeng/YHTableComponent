@@ -1,0 +1,3 @@
+target 'TableComponentDemo' do
+ pod 'YHTableComponent'
+end
