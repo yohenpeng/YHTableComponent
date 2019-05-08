@@ -22,12 +22,15 @@
 }
 
 + (CGFloat)calculateHeight:(id)dataModel{
-    return 50;
+    NSInteger num = [dataModel integerValue];
+    return num%2 ? 50 : 100;
 }
 
 - (void)fillData:(id)data{
     YHTableCellModel *cellModel = data;
     self.textLabel.text = cellModel.cellData;
+    NSInteger num = [cellModel.cellData integerValue];
+    self.contentView.backgroundColor = num%2 ? [UIColor redColor] : [UIColor blueColor];
 }
 
 @end

@@ -28,12 +28,11 @@
     
     [self.viewModel registerCellClass:@[@"TableViewCell"] sectionHFViewClass:@[]];
     
+    __weak __typeof(self) weakSelf = self;
     [self.viewModel fetch:^(NSError *error, NSArray<YHTableUIModel *> *arr) {
-        [self.viewModel refreshTableView:arr];
+        __strong __typeof(self) strongSelf = weakSelf;
+        [strongSelf.viewModel refreshTableView:arr];
     }];
-    
-//
-//    [self.viewModel refreshTableView:@[uiModel]];
 }
 
 

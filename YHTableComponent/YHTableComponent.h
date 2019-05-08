@@ -8,5 +8,3 @@
 
 #import "YHTableViewModel.h"
 #import "YHTableUIModel.h"
-
-

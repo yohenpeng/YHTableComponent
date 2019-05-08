@@ -17,7 +17,7 @@
         YHTableUIModel *uiModel = [[YHTableUIModel alloc]initWithBusinessId:@""];
         for (NSInteger i = 0; i < 10 ; i++) {
             YHTableCellModel *cellModel = [[YHTableCellModel alloc]initWithBusinessId:@"" cellClass:@"TableViewCell"];
-            [cellModel fillDataAndRefreshHeight:[NSString stringWithFormat:@"测试%ld",i]];
+            [cellModel fillDataAndRefreshHeight:[NSString stringWithFormat:@"%ld",i]];
             [uiModel.arr_cellModels addObject:cellModel];
         }
         
