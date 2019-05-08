@@ -1,2 +1,2 @@
 # YHTableComponent
-更好的管理TableView数据源
+更好的管理TableView数据源，支持异步异步计算Cell、SectionHeader、SectionFooter高度，目前只提供Objective-C版本
