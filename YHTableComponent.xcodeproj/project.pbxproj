@@ -32,6 +32,7 @@
 		660E8C582282BBA40098C9B7 /* YHTableUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTableUIModel.h; sourceTree = "<group>"; };
 		660E8C5B2282BBB40098C9B7 /* YHTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTableViewModel.m; sourceTree = "<group>"; };
 		660E8C5C2282BBB40098C9B7 /* YHTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTableViewModel.h; sourceTree = "<group>"; };
+		660E8C872282C94A0098C9B7 /* YHTableComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTableComponent.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		660E8C3F2282B9C30098C9B7 /* YHTableComponent */ = {
 			isa = PBXGroup;
 			children = (
+				660E8C872282C94A0098C9B7 /* YHTableComponent.h */,
 				660E8C5A2282BBB40098C9B7 /* ViewModel */,
 				660E8C562282BBA40098C9B7 /* Model */,
 				660E8C402282B9C30098C9B7 /* AppDelegate.h */,
