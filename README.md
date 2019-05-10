@@ -1,7 +1,8 @@
 # YHTableComponent
-更好的管理TableView数据源，支持异步异步计算Cell、SectionHeader、SectionFooter高度，目前只提供Objective-C版本
+#### YHTableComponent优点：
 
-
+1. 更好的管理TableView数据源，特别是需要灵活配置展示项目的时候，按照以前实现协议DataSource和Delegate的时候会写很多HardCode，让人不堪其烦。在YHTableComponent中使用YHUIModel对象的数组来管理数据源，逻辑清晰。
+2. 支持异步异步计算Cell、SectionHeader、SectionFooter高度， 在传递DataModel给到YHTableSectionHeaderFooterModel、YHTableCellModel的时候，就会调用各个类实现的calculateHeight方法计算并保存高度。
 
 Cell、SectionHeader、SectionFooter需实现以下协议
 
@@ -60,3 +61,6 @@ ViewModel中组合数据源：
 }
 ```
 
+
+
+* 目前只提供Objective-C版本
