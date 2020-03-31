@@ -12,10 +12,14 @@
 @class YHTableSectionHeaderFooterModel;
 @class YHTableCellModel;
 
+
 @protocol YHTableViewUIDelegate <NSObject>
 
 @required
+
 + (CGFloat)calculateHeight:(id)dataModel;
+
+@optional
 
 - (void)fillData:(id)data;
 

@@ -10,7 +10,11 @@
 #import <UIKit/UIKit.h>
 #import "YHTableUIModel.h"
 
+typedef void(^DidSelectRowAtIndexPathBlock)(YHTableCellModel *cellModel,NSIndexPath* indexPath);
+
 @interface YHTableViewModel : NSObject <UITableViewDelegate,UITableViewDataSource>
+
+@property (copy, nonatomic) DidSelectRowAtIndexPathBlock didSelectBlock;
 
 - (instancetype)initWithTable:(UITableView *)tableView;
 

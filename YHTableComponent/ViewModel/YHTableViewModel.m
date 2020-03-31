@@ -115,6 +115,13 @@
 
 #pragma mark ----------
 #pragma mark ---------- UITableViewDelegate ------------
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    YHTableCellModel *cellModel = [self cellModelAtIndexPath:indexPath];
+    if(self.didSelectBlock){
+        self.didSelectBlock(cellModel, indexPath);
+    }
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     YHTableCellModel *cellModel = [self cellModelAtIndexPath:indexPath];
     return [cellModel.cellHeight floatValue];

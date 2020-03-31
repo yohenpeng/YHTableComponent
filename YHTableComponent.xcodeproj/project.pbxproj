@@ -93,8 +93,8 @@
 		660E8C5A2282BBB40098C9B7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				660E8C5B2282BBB40098C9B7 /* YHTableViewModel.m */,
 				660E8C5C2282BBB40098C9B7 /* YHTableViewModel.h */,
+				660E8C5B2282BBB40098C9B7 /* YHTableViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
