@@ -118,7 +118,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     YHTableCellModel *cellModel = [self cellModelAtIndexPath:indexPath];
     if(self.didSelectBlock){
-        self.didSelectBlock(cellModel, indexPath);
+        self.didSelectBlock(self.tableView, cellModel, indexPath);
     }
 }
 
